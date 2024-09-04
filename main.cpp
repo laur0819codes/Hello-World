@@ -4,20 +4,23 @@ using namespace std;
 
 int main()
 {
-    double radius, area;
-    const double PI = 3.1416;
+    int grades [3];
 
+    cout << "Enter First Grade: ";
+    cin >> grades [0];
 
-   cout << "Radius: ";
-   cin >> radius;
+    cout << "Enter Second Grade: ";
+    cin >> grades [1];
 
-   area = PI * (radius * radius);
+    cout << "Enter Third Grade: ";
+    cin >> grades [2];
 
-   cout << "The area of the circle is: " << area;
+    cout << "Enter Fourth Grade: ";
+    cin >> grades [3];
 
+    cout << ( grades [0] + grades [1] + grades [2] + grades [3]) /4;
 
 
 
     return 0;
 }
-
